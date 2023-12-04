@@ -5,8 +5,7 @@
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
+    <content src="http://localhost:3000" />
     <allow-intent href="http://localhost:3000/*" />
-    <allow-intent href="https://localhost:3000/*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

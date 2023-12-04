@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import StartPage from './pages/StartPage/StartPage';
 
 function App() {
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,8 @@ function App() {
       </header>
     </div>
   );
+  */
+ return <StartPage />
 }
 
 export default App;

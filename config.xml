@@ -5,7 +5,16 @@
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <content src="http://192.168.17.64:3000" />
+    <allow-intent href="http://192.168.17.64:3000/*" />
+    <allow-intent href="http://192.168.17.64:3000/*" />
+    <!--
+    <content src="http://192.168.17.64:3000" />
+    <allow-navigation href="http://192.168.17.64:3000/*" />
+    <platform name="android">
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
+    </platform>
+    -->
 </widget>
